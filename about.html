@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Головна сторінка</title>
+
+  <!-- Підключення стилів -->
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <!-- Підключення FontAwesome для використання текстових іконок -->
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <p>MD</p>
+      </a>
+    </div>
+    <nav>
+      <a href="#" class="toggleNav btn">
+        <span class="material-symbols-outlined">
+          menu
+        </span>
+      </a>
+      <ul class="grey nav-menu">
+        <li><a class="btn" href="#about">Про мене</a></li>
+        <li><a class="btn" href="#skills">Мої вміння</a></li>
+        <li><a class="btn" href="projects.html">Мої проекти</a></li>
+      </ul>
+      <ul class="nva nav-menu">
+        <li><a class="btn" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a class="btn" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+        <li><a class="btn" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="content">
+    <h1>Як зв'язатся?</h1>
+    <p><span class="material-symbols-outlined">phone_enabled</span> +3800608098</p>
+    <p class="h"><i class="fab fa-github"></i><a href="https://github.com"> github</a></p>
+    <p><i class="fab fa-viber"></i> viber number +3800608098</p>
+    <p><i class="fab fa-telegram"></i> telegram number +3800608098</p>
+    <p><span class="material-symbols-outlined">mail</span> mariadomanska@gmail.com</p>
+  </div>
+  <form>
+    <input type="text" name="name" id="#name" placeholder="Name">
+    <input type="email" name="email" id="#email" placeholder="example@gmail.com">
+    <input type="tel" name="tel" id="#tel" placeholder="+380...">
+    <input type="submit" name="submit" id="#submit">
+  </form>
+  <footer>
+    <h2>Maria Dumanska</h2>
+    <ul>
+      <li><a href="#about">Про мене</a></li>
+      <li><a href="#skills">Мої вміння</a></li>
+      <li><a href="projects.html">Мої проекти</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></span></a></li>
+    </ul>
+    <p>&copy; 2026 Maria Dumanska. Всі права захищені.</p>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script>
+  $(function () {
+    $('.toggleNav').on('click', function () {
+      $('.nav-menu').toggle('active');
+    });
+  });
+</script>
+</body>
+
+</html>
