@@ -239,6 +239,39 @@ footer a:hover {
     background: rgba(0, 0, 0, 0.20);
 }
 
+.h:hover {
+  color: rgb(0, 119, 255);
+  transition: 1s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+form input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 50px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 @media (max-width: 1000px) {
   .boxs {
     flex-wrap: wrap;
