@@ -39,7 +39,7 @@ header {
   padding: 20px;
   position: sticky;
   top: 0;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.20);
 }
 
 nav {
@@ -236,6 +236,7 @@ footer a:hover {
 
 .toggleNav {
     display: none;
+    background: rgba(0, 0, 0, 0.20);
 }
 
 @media (max-width: 1000px) {
