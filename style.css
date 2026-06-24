@@ -235,9 +235,14 @@ footer a:hover {
 }
 
 .btnn {
+  display: grid;
+  alighn-items: center;
   text-align: center;
-  bacground: blue;
+  color: #3c65ff;
+  font-size: 20px;
   color: white;
+  border: 1px solid #d02cf5;
+  border-radius: 10px;
 }
 
 .btnn:hover {
