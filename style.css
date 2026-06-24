@@ -39,7 +39,7 @@ header {
   padding: 20px;
   position: sticky;
   top: 0;
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(255, 255, 255, 0.20);
 }
 
 nav {
@@ -232,6 +232,17 @@ footer a:hover {
 
 .btn {
   display: inline-block;
+}
+
+.btnn {
+  text-align: center;
+  bacground: blue;
+  color: white;
+}
+
+.btnn:hover {
+  transition: 0.2s;
+  background: #4287f5;
 }
 
 .toggleNav {
